@@ -27,7 +27,7 @@ client.on('message', async (message) => {
     if (message.author.bot) return;
     if (message.content.startsWith(prefix)) {
         //ARGS
-        const args = message.content.slice(data.Prefix.length).trim().split(/ +/g);
+        const args = message.content.slice(prefix).trim().split(/ +/g);
         //COMMAND
         const command = args.shift().toLowerCase();
         //busca comando
