@@ -24,7 +24,7 @@ client.on("ready", async () => {
 const prefix = "_";
 
 client.on('message', async (message) => {
-    if (user.bot) return;
+    if (message.author.bot) return;
     if (message.content.startsWith(prefix)) {
         //ARGS
         const args = message.content.slice(data.Prefix.length).trim().split(/ +/g);
