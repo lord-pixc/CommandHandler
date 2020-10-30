@@ -14,7 +14,7 @@ for (var archi of comandos) {
 }
 
 ////////// L O G I N //////////
-//client.login(process.env.TokenDiscord);
+client.login(process.env.TokenDiscord);
 
 ////////// E N C E N D I D O //////////
 client.on("ready", async () => {
