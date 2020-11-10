@@ -7,7 +7,7 @@ Una base hecha para iniciar la creación de un bot de Discord con command Handle
 * Para crear un comando solo basta con crear un archivo nuevo en la carpeta "comandos"
   * El nombre del archivo deberá llevar el mismo nobre del comando
   * Los nuevos comandos deberá llevar la siguiente estructura
-  ```javascript
+```javascript
 module.exports = {
     Nombre: "ping",
     Alias: ["pg", "ping!"],
