@@ -21,6 +21,7 @@ client.on("ready", async () => {
     console.log('\x1b[31m%s\x1b[0m', `${client.user.username} ${client.options._tokenType} ${package.version} Listo y Atento!!!`);
 });
 
+////////// P R E F I X //////////
 const prefix = "_";
 
 client.on('message', async (message) => {
