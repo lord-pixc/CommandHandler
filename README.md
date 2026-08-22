@@ -1,5 +1,5 @@
 # CommandHandler
-
+# DEPRECATED
 Una base hecha para iniciar la creación de un bot de Discord con command Handler
 
 * El prefix puesto es _ pero lo puedes cambiar a tu gusto en la seccion de PREFIX en index.js
